@@ -1,7 +1,10 @@
 import { reactive } from "vue";
 
 const store = reactive({
-  photos: null,
+  photo: {
+    name: null,
+    url: null,
+  },
 });
 
 export default store;

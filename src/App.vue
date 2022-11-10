@@ -6,21 +6,7 @@ import PhotoGallery from "./components/PhotoGallery.vue";
 
 <template>
   <div>
-    <h1 className="text-6xl">This is the beginning</h1>
+    <h1 class="text-6xl">Afschuwelijksfeest</h1>
   </div>
   <PhotoGallery msg="hier komt een foto" />
 </template>
-
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
