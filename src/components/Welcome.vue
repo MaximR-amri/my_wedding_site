@@ -6,11 +6,11 @@
     <h3 class="text-center pb-6">Merci om thuis zo warm te laten voelen</h3>
     <div class="text-center">
       <p>Op 10/11/2021</p>
-      <img
+      <!-- <img
         class="rounded-xl shadow-md shadow-slate-600"
         src="src\assets\Wegwerp(36).jpg"
         alt="Nog even wachten, hier een poep"
-      />
+      /> -->
     </div>
   </div>
 </template>
