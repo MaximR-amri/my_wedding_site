@@ -1,0 +1,85 @@
+<script setup></script>
+<template>
+  <div class="background">
+    <div class="container">
+      <h1><span></span></h1>
+      <div class="load"></div>
+    </div>
+  </div>
+</template>
+
+<style scoped>
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.background {
+  height: 100vh;
+  background: #171717f2;
+}
+.container h1 {
+  padding: 0;
+  margin: 0;
+  color: #000;
+  text-shadow: -3px 1px 2px rgba(84, 84, 84, 0.5);
+  font-size: 60px;
+  color: #fff;
+  font-family: "Fredericka the Great", cursive;
+  font-family: "Great Vibes", cursive;
+  font-family: "VT323", monospace;
+  font-family: monospace;
+}
+.container p {
+  color: green;
+  font-size: 18px;
+  margin: 0;
+  line-height: 35px;
+}
+span:before {
+  content: "";
+  animation: animate infinite 8s;
+}
+@keyframes animate {
+  0% {
+    content: "C";
+  }
+  10% {
+    content: "Co";
+  }
+  20% {
+    content: "Com";
+  }
+  30% {
+    content: "Comi";
+  }
+  40% {
+    content: "Comin";
+  }
+  50% {
+    content: "Coming";
+  }
+  60% {
+    content: "Coming S";
+  }
+  70% {
+    content: "Coming So";
+  }
+  80% {
+    content: "Coming Soo";
+  }
+  90% {
+    content: "Coming Soon";
+  }
+  100% {
+    content: "Coming Soon!";
+  }
+}
+
+.load {
+  background: #fff;
+  color: #000;
+  height: 5px;
+}
+</style>
